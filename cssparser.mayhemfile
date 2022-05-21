@@ -1,5 +1,7 @@
 project: servo-cssparser
 target: cssparser
 
+tests:
+  - file://fuzz/corpus/
 cmds:
   - cmd: /cssparser
